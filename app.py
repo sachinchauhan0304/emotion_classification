@@ -25,7 +25,7 @@ model = load_model(
 
 # 👇 Load the label encoder
 import pickle
-with open("label_encoder.pkl", "rb") as f:
+with open("Model/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 # 👇 Feature extraction from audio
