@@ -2,12 +2,12 @@
 
 ## 🔍 Project Overview
 
-This project focuses on building and deploying a Speech Emotion Recognition (SER) system using deep learning. The application classifies emotions from speech using MFCC features and a GRU-based model with an Attention layer. It supports audio input in `.wav` format and predicts one of eight emotional states.
+This project involves the development and deployment of a Speech Emotion Recognition (SER) model that identifies human emotions from audio signals using MFCC features. The backend leverages a GRU-based neural network enhanced with an attention mechanism. The app accepts .wav audio inputs and classifies them into one of eight predefined emotional categories.
 
 ## 🎯 Objectives
 
-* Detect human emotions from speech using machine learning.
-* Build an interactive web app using Streamlit.
+* Analyze and detect emotions in speech through deep learning.
+* Build an easy-to-use web interface using Streamlit.
 * Deploy the app seamlessly on Streamlit Cloud.
 
 ## 🧠 Dataset: RAVDESS
@@ -67,7 +67,7 @@ The app allows users to:
 
 ```bash
 # Clone repo
-https://github.com/sukhmandeep2125/emotion-classification-app.git
+https://github.com/sachinchauhan0304/emotion_classification.git
 
 # Create virtual env
 python -m venv mars
@@ -107,6 +107,6 @@ emotion-classification-app/
 
 ---
 
-**Author**: [Sukhmandeep Singh](https://github.com/sukhmandeep2125)
+**Author**: [Sachin Chauhan](https://github.com/sachinchauhan0304)
 
 **License**: MIT
